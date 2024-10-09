@@ -1,0 +1,35 @@
+name: flutter_application_evaluacion
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: PlaywriteDEGrund
+      fonts:
+        - asset: assets/fonts/PlaywriteDEGrund-ExtraLight.ttf
+        - asset: assets/fonts/PlaywriteDEGrund-Light.ttf
+        - asset: assets/fonts/PlaywriteDEGrund-Regular.ttf
+        - asset: assets/fonts/PlaywriteDEGrund-Thin.ttf
+          weight: 500
+        - asset: assets/fonts/PlaywriteDEGrund-Regular.ttf
+          weight: 600
+
+  assets:
+    - assets/fonts/
